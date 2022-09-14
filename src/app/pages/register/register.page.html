@@ -1,0 +1,78 @@
+<ion-header>
+  <!-- <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content>
+  <br>
+  <ion-grid  style="padding-left: 16px !important; padding-right: 16px !important;">
+    <ion-row>
+      <ion-col>
+        <div style="padding-left: 5px; font-weight: bold !important;"> 
+          <p>Create an account</p> 
+          <span style="font-weight: 100 !important; font-size: 12px !important;">Create an account to start making all your transactions.</span>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">First name</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Last name</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Email address</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Phone number</ion-label>
+          <ion-input type="tel"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Bank Verfication Number (BVN)</ion-label>
+          <ion-input type="tel" max="10"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button color="medium"  expand="block" routerLink="/verification">Next</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button style="text-transform: capitalize !important; text-decoration: none !important;" color="dark" shape="round" fill="clear" expand="full" routerLink="/login">
+          Already have an account? &nbsp;  <span style="color: #6557CF; font-weight: bold;"> Log In</span>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+
+
+</ion-content>

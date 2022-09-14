@@ -1,0 +1,45 @@
+<ion-header>
+  <!-- <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content>
+  <br>
+  <ion-grid style="padding-left: 16px !important; padding-right: 16px !important;">
+    <ion-row>
+      <ion-col>
+        <div style="padding-left: 5px; font-weight: bold !important;"> 
+          <p>Forgot Password?</p> 
+          <span style="font-weight: 100 !important; font-size: 12px !important;">
+            Enter registered phone number attached to this account for password reset link.
+          </span>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <!-- <h6 style="margin-bottom: 0 !important;">Please enter your registered <br> phone number</h6> -->
+          <ion-label position="floating">Phone number</ion-label>
+          <ion-input type="number"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
+<ion-footer style="padding: 16px;">
+  <ion-row>
+    <ion-col>
+      <ion-button color="tertiary" expand="full" style="text-transform: capitalize;">Submit</ion-button>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <ion-button style="text-transform: capitalize !important; text-decoration: underline !important;" color="tertiary" shape="round" fill="clear" expand="full" routerLink="/login">Back</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-footer>

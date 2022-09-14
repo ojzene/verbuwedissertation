@@ -1,0 +1,91 @@
+<ion-header>
+  <!-- <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content>
+  <br>
+  <ion-grid style="padding: 0 16px !important;">
+    <ion-row>
+      <ion-col>
+        <div style="padding-left: 5px; font-weight: bold !important;"> 
+          <p>Phone Verification</p> 
+          <span style="font-weight: 100 !important; font-size: 12px !important;">We've sent a 6-digit OTP code to your registered mobile number. Please enter code </span>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <!-- <ion-row>
+      <ion-col>
+        Enter verification code
+      </ion-col>
+    </ion-row> -->
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col style="padding: 15px 0 !important">
+        <ion-button style="text-transform: capitalize !important;" color="tertiary" shape="round" fill="clear" expand="full" routerLink="/login">
+          <span style="color: #808080;">Didn't receive code?</span> &nbsp;
+          <span style="color: #6557CF; font-weight: bold;">Resend</span>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button color="tertiary" expand="full">CONFIRM</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button style="text-transform: capitalize !important; font-size: 11px;" color="tertiary" shape="round" fill="clear" expand="full" (click)="getInTouch()">
+        <span style="color: #808080;">Not getting the code?</span> &nbsp;
+        <span style="color: #6557CF; font-weight: bold;">Get in touch with us</span>
+      </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button style="text-transform: capitalize !important; text-decoration: underline !important;" color="tertiary" shape="round" fill="clear" expand="full" routerLink="/login">Back</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+
+</ion-content>

@@ -1,0 +1,11 @@
+.ion-color-tertiary {
+    --ion-color-base: #6557CF !important;
+    --ion-color-contrast: #FFFFFF !important;
+    height: 45px !important;
+    --ion-border-radius: 10px;
+}
+
+.footer-md::before {
+    background-image: none !important;
+    content: "";
+}

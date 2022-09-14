@@ -1,0 +1,19 @@
+.ion-color-warning {
+    --ion-color-base: #FFA84D !important;
+    --ion-color-contrast: #FFFFFF !important;
+    height: 45px !important;
+}
+
+.ion-color-primary {
+    --ion-color-base: #F5F0EB !important;
+    height: 45px !important;
+}
+
+:host(.button-solid.ion-color) .button-native {
+    background: #000 !important;
+    color: var(--ion-color-contrast);
+}
+
+ion-slides {
+    height: 55%;
+}

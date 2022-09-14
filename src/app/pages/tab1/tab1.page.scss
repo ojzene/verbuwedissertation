@@ -1,0 +1,28 @@
+.dashboard-icon {
+    width: 81px; 
+    height: 70px; 
+    border-radius: 10px; 
+    background: #fff !important;
+    margin: 15px !important;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 30px;
+    ion-icon {
+        justify-content: center;
+        vertical-align: middle;
+        line-height: normal;
+    }
+}
+.icon-bg {
+    color: #3B65FB;
+    background: linear-gradient(141.01deg, #6DFFFF 4.79%, #3B65FB 107.71%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.inner-scroll {
+    background-color: #6557CF !important;
+}

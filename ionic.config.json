@@ -1,0 +1,11 @@
+{
+  "name": "verb",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "5c52583b"
+}

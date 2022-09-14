@@ -1,0 +1,6 @@
+{
+	"appId": "io.verb.app",
+	"appName": "verb",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
