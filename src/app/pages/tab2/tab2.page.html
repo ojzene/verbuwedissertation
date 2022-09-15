@@ -1,17 +1,18 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      VERB
+      Perform VERB Activities
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tap to listen</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-list class="ios list-ios hydrated" lines="none" style="text-align: center; margin: 60px; margin-top: 100px; background: none !important;">
+    
+    <ion-icon style="font-size: 150px;" *ngIf="showVolume" name="mic-circle-outline" (click)="onPressedSpeech()"></ion-icon>        
+    <p *ngIf="showVolume">Tap to listen</p>
 
-  <app-explore-container name="Tap to Listen"></app-explore-container>
+    <ion-icon style="font-size: 150px;" *ngIf="!showVolume" name="volume-medium-outline" (click)="onStopSpeech()"></ion-icon>
+    <p *ngIf="!showVolume">Listening...</p>
+  </ion-list>
 </ion-content>

@@ -10,7 +10,7 @@ import { TextToSpeech } from '@ionic-native/text-to-speech/ngx';
   styleUrls: ['./welcome.page.scss'],
 })
 export class WelcomePage implements OnInit {
-  welcomeText = "Welcome to Verb, What can I do for you today?"
+  welcomeText = "Welcome to Verb. with your voice, You can make enquiry about your account balance or ask when was your last transaction."
 
   slideOpts = {
     initialSlide: 0,
@@ -127,7 +127,7 @@ export class WelcomePage implements OnInit {
     (onerror) => { 
       alert('error::'+ onerror);
       console.log('error:', onerror) 
-  })
+    })
   }
 
 

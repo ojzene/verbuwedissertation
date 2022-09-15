@@ -9,9 +9,9 @@
     <!-- <ion-avatar slot="start" class="md hydrated">
       <img src="/assets/avatar.svg">
     </ion-avatar> -->
-    <ion-label class="sc-ion-label-md-h sc-ion-label-md-s md hydrated" style="color: #1A1A1A !important">
+    <ion-label class="sc-ion-label-md-h sc-ion-label-md-s md hydrated" style="color: #CCCCCC !important">
       <!-- <h2 style="margin-top: 20px; color: #1A1A1A !important; font-weight: bold;">Hello {{ userData?.firstName + " "+userData?.lastName }} </h2> -->
-      <h2 style="margin-top: 20px; color: #1A1A1A !important; font-weight: bold;">{{greetingMessage +" "+ userData?.firstName }} </h2>
+      <h2 style="margin-top: 20px; color: #CCCCCC !important; font-weight: bold;">{{greetingMessage +" "+ userData?.firstName }} </h2>
     </ion-label>
     <ion-avatar (click)="start()" slot="end" class="ios hydrated" style="cursor: pointer !important; margin-right: 10px;">
       <ion-icon name="mic-circle-outline" style="height: 50px; font-size: 70px; color: #6557CF;"></ion-icon>
@@ -31,7 +31,8 @@
       <ion-col style="color: #1A1A1A !important">
         <!-- <h3 style="color: #1A1A1A !important"><strong>₦{{ walletBalance | number }}</strong></h3> -->
         <p style="font-size: 12px; margin-top: 5px !important; margin-bottom: 1px !important; color: #1A1A1A !important">Your current balance is</p>
-        <h1 style="margin-top: 2px !important; color: #1A1A1A !important"><strong>₦ 5,000,000</strong></h1>
+        <!-- <h1 style="margin-top: 2px !important; color: #1A1A1A !important"><strong>₦ 5,000,000</strong></h1> -->
+        <h1 style="margin-top: 2px !important; color: #1A1A1A !important"><strong>₦ {{ walletBalance | number }}</strong></h1>
       </ion-col>
       <!-- <ion-col style="text-align: right;">
         <img src="/assets/homeicon.png" width="133" height="111" alt="img" />    

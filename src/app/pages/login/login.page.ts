@@ -14,9 +14,13 @@ import { LoaderService } from '../../services/loader/loader.service';
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
+  // postData = {
+  //   phone: '',
+  //   password: ''
+  // };
   postData = {
-    phone: '',
-    password: ''
+    phone: '07908812603',
+    password: '1245'
   };
   constructor(public router: Router, public alertController: AlertController,
     private authService: AuthService,

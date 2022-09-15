@@ -88,7 +88,6 @@ export class Tab1Page implements OnInit {
       this.speechRecognition.startListening(options)
         .subscribe((matches: Array<string>) => {
             this.bgcolor = matches[0];
-            
             // if(matches[0] === "What is my account balance" || matches[0] === "What is my account balance") {
             //   this.textToSpeech("Please wait! Checking your account balance");  
             //   setTimeout(() => {

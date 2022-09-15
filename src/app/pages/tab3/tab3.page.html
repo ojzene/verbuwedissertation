@@ -1,17 +1,72 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-buttons slot="start" style="color: #1a1a1a !important">
+      <ion-back-button></ion-back-button>
+   </ion-buttons>
+    <ion-title style="color: #1a1a1a !important">Transaction History</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-list class="ios list-ios hydrated" lines="none" style="background: none !important;">
+    <ion-item lines="none"
+      style="background-color: #FBF8F4 !important; font-size: 12px; margin: 10px !important; margin-top: 0 !important; border-radius: 10px !important;">
+      <!-- <ion-avatar slot="start" class="md hydrated">
+        <img src="/assets/avatar.svg">
+      </ion-avatar> -->
+      <ion-label class="sc-ion-label-md-h sc-ion-label-md-s md hydrated" style="font-size: 12px;">
+        <span>Olakemi Bolade</span>
+        <p>21448910120</p>
+      </ion-label>
+      <ion-label slot="end" class="ios hydrated" style="text-align: right;">
+        <h3>- ₦5,100</h3>
+        <p>22/08/2022</p>
+      </ion-label>
+    </ion-item>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+    <ion-item lines="none"
+      style="background-color: #FBF8F4 !important; font-size: 12px; margin: 10px !important; margin-top: 0 !important; border-radius: 10px !important;">
+      <!-- <ion-avatar slot="start" class="md hydrated">
+        <img src="/assets/avatar.svg">
+      </ion-avatar> -->
+      <ion-label class="sc-ion-label-md-h sc-ion-label-md-s md hydrated" style="font-size: 12px;">
+        <span>Oluwaseun Bryan</span>
+        <p>4208590203</p>
+      </ion-label>
+      <ion-label slot="end" class="ios hydrated" style="text-align: right;">
+        <h3>+ ₦4,000</h3>
+        <p>14/08/2022</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item lines="none"
+      style="background-color: #FBF8F4 !important; font-size: 12px; margin: 10px !important; margin-top: 0 !important; border-radius: 10px !important;">
+      <!-- <ion-avatar slot="start" class="md hydrated">
+        <img src="/assets/avatar.svg">
+      </ion-avatar> -->
+      <ion-label class="sc-ion-label-md-h sc-ion-label-md-s md hydrated" style="font-size: 12px;">
+        <span>Bentley Milan</span>
+        <p>2105610214</p>
+      </ion-label>
+      <ion-label slot="end" class="ios hydrated" style="text-align: right;">
+        <h3>- ₦2,400</h3>
+        <p>15/07/2022</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item lines="none"
+    style="background-color: #FBF8F4 !important; font-size: 12px; margin: 10px !important; margin-top: 0 !important; border-radius: 10px !important;">
+    <!-- <ion-avatar slot="start" class="md hydrated">
+      <img src="/assets/avatar.svg">
+    </ion-avatar> -->
+    <ion-label class="sc-ion-label-md-h sc-ion-label-md-s md hydrated" style="font-size: 12px;">
+      <span>Adebola Sucre</span>
+      <p>3115620215</p>
+    </ion-label>
+    <ion-label slot="end" class="ios hydrated" style="text-align: right;">
+      <h3>- ₦2,000</h3>
+      <p>25/06/2022</p>
+    </ion-label>
+  </ion-item>
+  </ion-list>
 </ion-content>
