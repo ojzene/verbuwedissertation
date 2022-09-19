@@ -19,13 +19,13 @@
       <ion-col>
         <ion-item>
           <ion-label position="floating">First name</ion-label>
-          <ion-input></ion-input>
+          <ion-input placeholder="First name" autocomplete="off" name="firstName" type="text" [(ngModel)]="postData.firstName"></ion-input>
         </ion-item>
       </ion-col>
       <ion-col>
         <ion-item>
           <ion-label position="floating">Last name</ion-label>
-          <ion-input></ion-input>
+          <ion-input placeholder="Last name" autocomplete="off" name="lastName" type="text" [(ngModel)]="postData.lastName"></ion-input>
         </ion-item>
       </ion-col>
     </ion-row>
@@ -34,7 +34,7 @@
       <ion-col>
         <ion-item>
           <ion-label position="floating">Email address</ion-label>
-          <ion-input></ion-input>
+          <ion-input placeholder="Email address" autocomplete="off" name="email" type="email" [(ngModel)]="postData.email"></ion-input>
         </ion-item>
       </ion-col>
     </ion-row>
@@ -43,23 +43,14 @@
       <ion-col>
         <ion-item>
           <ion-label position="floating">Phone number</ion-label>
-          <ion-input type="tel"></ion-input>
+          <ion-input type="tel" placeholder="Phone number" maxlength="15" autocomplete="off" name="phone" [(ngModel)]="postData.phone"></ion-input>
         </ion-item>
       </ion-col>
     </ion-row>
 
     <ion-row>
       <ion-col>
-        <ion-item>
-          <ion-label position="floating">Bank Verfication Number (BVN)</ion-label>
-          <ion-input type="tel" max="10"></ion-input>
-        </ion-item>
-      </ion-col>
-    </ion-row>
-
-    <ion-row>
-      <ion-col>
-        <ion-button color="medium"  expand="block" routerLink="/verification">Next</ion-button>
+        <ion-button color="medium" expand="block" (click)="signupAction()">Next</ion-button>
       </ion-col>
     </ion-row>
 

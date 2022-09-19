@@ -23,7 +23,8 @@ export class Tab2Page implements OnInit {
 
   processedData: any;
 
-  dictionary = ["account balance", 
+  dictionary = [
+              "account balance", 
               "balance", 
               "current balance", 
               "what's my current balance",
